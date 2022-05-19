@@ -1,0 +1,60 @@
+body{
+  background-image: linear-gradient(skyblue, pink, lightyellow);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1{
+  color: black;
+  font-size: 45px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.label{
+  color: black;
+  font-size: 25px;
+  font-weight:600;
+}
+input {
+  color: black;
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: lightblue;
+}
+button {
+  color: black;
+  height: 55px;
+  width: 230px;
+  font-size: 25px;
+  background-color: skyblue;
+  border-radius: 40px;
+}
+button:hover {
+  background-color: aqua;
+}
+.container {
+  border: 2px solid black;
+  background-color: skyblue;
+  width: 85%;
+  margin: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box {
+  color: black;
+  height: 50px;
+  width: 45%;
+  margin: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  background-color: violet;
+  border: 2px solid black;
+  border-radius: 20px;
+}
